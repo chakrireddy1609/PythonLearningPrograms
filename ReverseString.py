@@ -1,6 +1,4 @@
 user_string = input("Enter a string : ")
 
-reverse = ""
-for i in user_string:
-    reverse = i + reverse
-print(reverse)
+reverse_string = user_string[::-1]
+print(reverse_string)
