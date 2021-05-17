@@ -9,9 +9,7 @@ def all_primes(number):
         for j in range(2,number):
             if i != j:
                 if i % j == 0:
-                    break;
-                else:
-                    continue;
+                    break
             else:
                 prime.append(i)
     print(prime)
